@@ -1,3 +1,15 @@
+#网易云音乐评论广告
+^http?:\/\/interface3\.music\.163\.com\/eapi\/v1\/content\/exposure\/comment\/banner\/get url reject
+^http?:\/\/interface3\.music\.163\.com\/eapi\/comment\/tips url reject
+^https?+:\/\/.+?\/eapi\/(?>ad|log)\/ url reject-200
+
+#美团
+^https?:\/\/www\.dpfile\.com\/picasso\/picasso-ad url reject
+^https?:\/\/img\.meituan\.net\/adunion url reject
+^https?:\/\/s0\.meituan\.com\/bs\/waimai_ad url reject
+^https?:\/\/p0\.meituan\.net\/adunion url reject
+^https?:\/\/p1\.meituan\.net\/adunion url reject-200
+
 # 车来了小程序
 ^https?:\/\/web\.chelaile\.net\.cn\/api\/ad url reject
 
