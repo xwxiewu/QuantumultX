@@ -1,1 +1,1 @@
-# QuanX
+这是一个有强迫症的小白的去广告quantumultx配置
