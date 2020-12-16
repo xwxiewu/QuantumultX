@@ -41,7 +41,7 @@ ctier=[A-Z] url 302 ctier=A
 (^https?:\/\/[\w-]+\.googlevideo\.com\/.+)(ctier=L)(&.+) url 302 $1$3
 (^https?:\/\/dm[\w-]+\.\w+\.com\/.+)(\?)(.+) url 302 $1$3
 (^https?:\/\/[\w-]+\.tiktokv.com\/.+&.+)(\d{2}\.3\.\d)(.+) url 307 $118.0$3
-(?<=&mcc_mnc=)46 url 307 44
+(?<=&mcc_mnc=)4 url 307 2
 ^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) url reject
 ^https?:\/\/.+\.googlevideo\.com\/.+&oad url reject-img
 ^https?:\/\/.+\.googlevideo\.com\/.+ctier url reject-img
