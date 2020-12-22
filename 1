@@ -1,3 +1,6 @@
+(^https?:\/\/dm[\w-]+\.\w+\.com\/.+)(\?)(.+) url 302 $1$3
+(^https?:\/\/[\w-]+\.tiktokv.com\/.+&.+)(\d{2}\.3\.\d)(.+) url 307 $118.0$3
+(?<=&mcc_mnc=)4 url 307 2
 ^(http|https):\/\/(ditu|maps).google\.cn url 302 https://maps.google.com
 ^(http|https):\/\/(www.)?(bett2erzipcn|betterzip)\.(com|net)\/ url 302 $1https://macitbetter.com/$3
 ^(http|https):\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
