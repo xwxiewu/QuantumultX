@@ -4,4 +4,7 @@
 
 可以解锁最新版TikTok(国际版抖音)
 
+QuantumultxPlus是我个人使用的本地脚本版
+Quantumult是大家都能用的版本
+
 Ps：实时修复误杀的规则
