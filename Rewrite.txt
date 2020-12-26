@@ -83,7 +83,6 @@ hostname = *.googlevideo.com,*.iydsj.com,*.k.sohu.com,*.kakamobi.cn,*.kingsoft-o
 ^https?+:\/\/.+?\.mp4\?ccode=0902 url reject-200
 ^https?+:\/\/.+?\.mp4\?sid= url reject-200
 ^https?+:\/\/.+?\.pstatp\.com\/img\/ad url reject-200
-^https?+:\/\/.+?\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ url reject-200
 ^https?+:\/\/.+?\/(?>mixer|track2)\? url reject-200
 ^https?+:\/\/.+?\/V\d\/splash\/getSplashV\d\.action url reject-200
 ^https?+:\/\/.+?\/allOne\.php\?ad_name url reject-200
@@ -449,8 +448,6 @@ hostname = *.googlevideo.com,*.iydsj.com,*.k.sohu.com,*.kakamobi.cn,*.kingsoft-o
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject
 ^https?:\/\/.+/videos/other/.+ url reject
 ^https?:\/\/.+?/V\d\/splash\/getSplashV\d\.action url reject
-^https?:\/\/.+?\.(musical|snssdk)\.(com|ly)\/(api|motor)\/ad\/ url reject
-^https?:\/\/.+?\.(snssdk|amemv)\.com\/api\/ad\/ url reject-img
 ^https?:\/\/.+?\.127\.net\/ad url reject-img
 ^https?:\/\/.+?\.58cdn\.com\.cn\/brandads\/ url reject
 ^https?:\/\/.+?\.atm\.youku\.com url reject
@@ -467,7 +464,6 @@ hostname = *.googlevideo.com,*.iydsj.com,*.k.sohu.com,*.kakamobi.cn,*.kingsoft-o
 ^https?:\/\/.+?\.mp4\?ccode=0902 url reject
 ^https?:\/\/.+?\.mp4\?sid= url reject
 ^https?:\/\/.+?\.pstatp\.com\/img\/ad url reject
-^https?:\/\/.+?\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ url reject
 ^https?:\/\/.+?\.youtube\.com\/get_midroll url reject-img
 ^https?:\/\/.+?\.youtube\.com\/ptracking\? url reject-img
 ^https?:\/\/.+?\/(mixer|track2)\? url reject
@@ -515,14 +511,6 @@ hostname = *.googlevideo.com,*.iydsj.com,*.k.sohu.com,*.kakamobi.cn,*.kingsoft-o
 ^https?:\/\/.+\.googlevideo\.com\/.+owc= url reject-img
 ^https?:\/\/.+\.googlevideo\.com\/ptracking url reject-img
 ^https?:\/\/.+\.googlevideo\.com\/videogoodput url reject-img
-^https?:\/\/.+\.musical\.ly\/.+stats url reject-img
-^https?:\/\/.+\.musical\.ly\/api\/ad url reject-img
-^https?:\/\/.+\.snssdk\.com\/.+app_log url reject-img
-^https?:\/\/.+\.snssdk\.com\/.+promotion url reject-img
-^https?:\/\/.+\.snssdk\.com\/.+report url reject-img
-^https?:\/\/.+\.snssdk\.com\/.+stats url reject-img
-^https?:\/\/.+\.snssdk\.com\/api\/ad url reject-img
-^https?:\/\/.+\.snssdk\.com\/monitor url reject-img
 ^https?:\/\/.+\.youtube\.com\/.+adformat url reject-img
 ^https?:\/\/.+\.youtube\.com\/.+get_ads url reject-img
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/ads url reject-img
@@ -560,7 +548,6 @@ hostname = *.googlevideo.com,*.iydsj.com,*.k.sohu.com,*.kakamobi.cn,*.kingsoft-o
 ^https?:\/\/9377\w{2}\.com url reject
 ^https?:\/\/9377\w{2}\.com url reject-img
 ^https?:\/\/[\s\S]*\.baidu\.com/.*?ad[xs]\.php url reject-img
-^https?:\/\/[\s\S]*\.snssdk\.com\/api\/ad\/ url reject-img
 ^https?:\/\/[\s\S]*\/.+?\.tc\.qq\.com/.*?p201.1\.mp4 url reject-img
 ^https?:\/\/[\s\S]*\/eapi\/ad\/ url reject-img
 ^https?:\/\/[\s\S]*\/music\/photo_new\/T017R url reject-img
@@ -570,8 +557,6 @@ hostname = *.googlevideo.com,*.iydsj.com,*.k.sohu.com,*.kakamobi.cn,*.kingsoft-o
 ^https?:\/\/[\s\s]*baidu\.com/.*ad[xs]\.php url reject
 ^https?:\/\/[\w-.]+\.ott\.cibntv\.net\/[\w\/-]+.mp4\?sid= url reject
 ^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) url reject
-^https?:\/\/[\w-]+\.snssdk\.com\/.+_ad\/ url reject
-^https?:\/\/[\w-]+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ url reject
 ^https?:\/\/[^(apple|10010)]+\.(com|cn)\/(a|A)d(s|v)?(/|\.js) url reject
 ^https?:\/\/[^(apple|10010)]+\.(com|cn)\/(a|A)d(s|v)?(\/|\.js) url reject-img
 ^https?:\/\/[^bbs].tianya\.cn url reject
@@ -744,7 +729,6 @@ hostname = *.googlevideo.com,*.iydsj.com,*.k.sohu.com,*.kakamobi.cn,*.kingsoft-o
 ^https?:\/\/api\.zhuishushenqi\.com\/recommend url reject-img
 ^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios url reject
 ^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated url reject
-^https?:\/\/api\d?\.musical\.ly\/api\/ad\/ url reject-img
 ^https?:\/\/api\d\.futunn\.com\/ad\/ url reject
 ^https?:\/\/api\d\.tuisong\.baidu\.com url reject-img
 ^https?:\/\/app-api\.jinse\.com\/v\d\/ad\/ url reject
@@ -778,11 +762,6 @@ hostname = *.googlevideo.com,*.iydsj.com,*.k.sohu.com,*.kakamobi.cn,*.kingsoft-o
 ^https?:\/\/ast\.api\.moji\.com\/assist\/ad\/moji\/stat url reject-img
 ^https?:\/\/atrace\.chelaile\.net\.cn\/adpub\/ url reject-img
 ^https?:\/\/atrace\.chelaile\.net\.cn\/exhibit\?&adv_image url reject-img
-^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/aweme\/stats\/ url reject-img
-^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/device\/update\/ url reject-img
-^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/screen\/ad\/ url reject-img
-^https?:\/\/aweme\.snssdk\.com\/service\/1\/app_logout\/ url reject-img
-^https?:\/\/aweme\.snssdk\.com\/service\/2\/app_log url reject-img
 ^https?:\/\/b-api\.ins\.miaopai\.com\/1\/ad/ url reject-img
 ^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/ url reject
 ^https?:\/\/baichuan\.baidu\.com\/rs\/adpmobile\/launch url reject-img
@@ -923,7 +902,6 @@ hostname = *.googlevideo.com,*.iydsj.com,*.k.sohu.com,*.kakamobi.cn,*.kingsoft-o
 ^https?:\/\/fm\.fenqile\.com\/routev2\/other\/startImg\.json url reject-img
 ^https?:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(banner|notice)\/overview url reject
 ^https?:\/\/free\.sinaimg\.cn\/u1\.img\.mobile\.sina\.cn url reject
-^https?:\/\/frontier\.snssdk\.com\/ url reject-img
 ^https?:\/\/fuss10\.elemecdn\.com\/.+?\.mp4 url reject-img
 ^https?:\/\/fuss10\.elemecdn\.com\/.+?\/w\/640\/h\/\d{3,4} url reject-img
 ^https?:\/\/fuss10\.elemecdn\.com\/.+?\/w\/750\/h\/\d{3,4} url reject-img
