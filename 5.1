@@ -373,14 +373,33 @@
 ^https?://(www.)?google.cn/search url 302 https://www.google.com/search
 ^https?://cfg.m.ttkvod.com/mobile/ttk_mobile_1.8.txt url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Static/TXT/ttk_mobile_1.8.txt$2ogtre5vp0.bkt.clouddn.com$3
 ^https?://cnzz.com/ url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/background.png?$2ogtre5vp0.bkt.clouddn.com$3
+^https?://graph.facebook.com/.+activities url reject-img
+^https?://graph.facebook.com/.+advertiser_id= url reject-img
+^https?://graph.facebook.com/.+events url reject-img
+^https?://graph.facebook.com/network_ads_common url reject-img
+^https?://graph.nhaccuatui.com/.+advs url reject-img
+^https?://graph.nhaccuatui.com/.+deviceinfo url reject-img
+^https?://graph.nhaccuatui.com/.+logs url reject-img
 ^https?://m.qu.la/stylewap/js/wap.js url 302 http://ogtre5vp0.bkt.clouddn.com/qu_la_wap.js
 ^https?://m.taobao.com/ url 302 https://m.taobao.com/
 ^https?://m.yhd.com/1/? url 302 http://m.yhd.com/1/?adbock=
 ^https?://n.mark.letv.com/m3u8api/ url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Interface$2burpsuite.applinzi.com$3
+^https?://spclient.wg.spotify.com/.+ad_slot url reject-img
+^https?://spclient.wg.spotify.com/.+banners url reject-img
+^https?://spclient.wg.spotify.com/.+crashlytics url reject-img
+^https?://spclient.wg.spotify.com/.+doubleclick url reject-img
+^https?://spclient.wg.spotify.com/.+enabled-tracks url reject-img
+^https?://spclient.wg.spotify.com/.+event url reject-img
+^https?://spclient.wg.spotify.com/.+promoted url reject-img
+^https?://spclient.wg.spotify.com/.+sponsored url reject-img
+^https?://spclient.wg.spotify.com/ad-logic url reject-img
+^https?://spclient.wg.spotify.com/ads url reject-img
 ^https?://sqimg.qq.com/ url 302 https://sqimg.qq.com/
 ^https?://static.m.ttkvod.com/static_cahce/index/index.txt url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Static/TXT/index.txt$2ogtre5vp0.bkt.clouddn.com$3
 ^https?://union.click.jd.com/jda? url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/jda?adblock=$2union.click.jd.com$3
 ^https?://union.click.jd.com/sem.php? url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/sem.php?adblock=$2union.click.jd.com$3
+^https?://www.facebook.com/adnw_logging url reject-img
+^https?://www.facebook.com/adnw_sync url reject-img
 ^https?://www.iqshw.com/d/js/m url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Interface$2burpsuite.applinzi.com$3
 ^https?://www.iqshw.com/d/js/m url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Other/Static/JS/Package.js?$2rewrite.websocket.site:10$3
 ^https?://www.jd.com/ url 302 https://www.jd.com/
@@ -409,6 +428,7 @@
 ^https?:\/\/(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/.+?\.tc\.qq\.com\/.+?p201\.1\.mp4\? url reject
 ^https?:\/\/(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/ting\/preload\/ url reject
 ^https?:\/\/(\d{1,3}\.){1,3}\d{1,3}\/view\/dale-online\/dale_ad\/ url reject-img
+^https?:\/\/(\w+\.)?(adclick|ads([0-9]+)?|adserver|adformat|analysis|analytics|banners?|click|counter|delivery|log|log-?\w+?|pagead|stat|stats|statis|trace|track|tracking|uniad)\.\w+\.(com|cn|org|info|io|net|vn|com.vn) url reject-img
 ^https?:\/\/(\w\.)?up\.qingdaonews\.(com|cn|net) url reject
 ^https?:\/\/(\w\.)?up\.qingdaonews\.com url reject-img
 ^https?:\/\/(a?d|sax)\d.sina.com url reject
@@ -484,6 +504,40 @@
 ^https?:\/\/.+?allOne\.php\?ad_name=main_splash_ios url reject-img
 ^https?:\/\/.+?ccode=0902 url reject-img
 ^https?:\/\/.+?resource=article\/recommend\&accessToken= url reject-img
+^https?:\/\/.+\.amemv\.com\/.+app_log url reject-img
+^https?:\/\/.+\.amemv\.com\/.+report url reject-img
+^https?:\/\/.+\.amemv\.com\/.+stats url reject-img
+^https?:\/\/.+\.amemv\.com\/api\/ad url reject-img
+^https?:\/\/.+\.googleapis.com/.+ad_break url reject-img
+^https?:\/\/.+\.googleapis.com/.+log_event url reject-img
+^https?:\/\/.+\.googleapis.com/adsmeasurement url reject-img
+^https?:\/\/.+\.googlevideo\.com\/.+oad= url reject-img
+^https?:\/\/.+\.googlevideo\.com\/.+owc= url reject-img
+^https?:\/\/.+\.googlevideo\.com\/ptracking url reject-img
+^https?:\/\/.+\.googlevideo\.com\/videogoodput url reject-img
+^https?:\/\/.+\.musical\.ly\/.+stats url reject-img
+^https?:\/\/.+\.musical\.ly\/api\/ad url reject-img
+^https?:\/\/.+\.snssdk\.com\/.+app_log url reject-img
+^https?:\/\/.+\.snssdk\.com\/.+promotion url reject-img
+^https?:\/\/.+\.snssdk\.com\/.+report url reject-img
+^https?:\/\/.+\.snssdk\.com\/.+stats url reject-img
+^https?:\/\/.+\.snssdk\.com\/api\/ad url reject-img
+^https?:\/\/.+\.snssdk\.com\/monitor url reject-img
+^https?:\/\/.+\.tiktokv\.com\/.+stats url reject-img
+^https?:\/\/.+\.tiktokv\.com\/api\/ad url reject-img
+^https?:\/\/.+\.youtube\.com\/.+adformat url reject-img
+^https?:\/\/.+\.youtube\.com\/.+get_ads url reject-img
+^https?:\/\/.+\.youtube\.com\/api\/stats\/ads url reject-img
+^https?:\/\/.+\.youtube\.com\/api\/stats\/atr url reject-img
+^https?:\/\/.+\.youtube\.com\/api\/stats\/qoe url reject-img
+^https?:\/\/.+\.youtube\.com\/csi_204 url reject-img
+^https?:\/\/.+\.youtube\.com\/error_204 url reject-img
+^https?:\/\/.+\.youtube\.com\/gen_204 url reject-img
+^https?:\/\/.+\.youtube\.com\/generate_204 url reject-img
+^https?:\/\/.+\.youtube\.com\/get_midroll url reject-img
+^https?:\/\/.+\.youtube\.com\/pagead url reject-img
+^https?:\/\/.+\.youtube\.com\/pcs\/activeview url reject-img
+^https?:\/\/.+\.youtube\.com\/ptracking url reject-img
 ^https?:\/\/101\.201\.175\.228\/ads\/display url reject
 ^https?:\/\/111\.13\.29\.201\/client\.action\?functionId=start url reject-img
 ^https?:\/\/113\.200\.76\.*?:16420\/sxtd\.bike2\.01\/getkey\.do url reject-img
