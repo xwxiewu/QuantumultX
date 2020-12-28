@@ -1456,52 +1456,6 @@
 ^https:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+adunitid url reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/.+\.tc\.qq\.com\/.+p201\.1\.mp4\? url reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/ting\/preload\/ url reject
-^https?:\/\/(www.)?(betterzipcn|betterzip)\.(com|net)\/https://macitbetter.com/302
-^https?:\/\/(www.)?(g|google)\.cnhttps://www.google.com302
-^https?:\/\/(www.)?abbyychina\.com\/https://www.abbyy.cn/302
-^https?:\/\/(www.)?bartender\.cc\/https://www.macbartender.com/302
-^https?:\/\/(www.)?beyondcompare\.cc\/https://www.scootersoftware.com/302
-^https?:\/\/(www.)?bingdianhuanyuan\.cn\/https://www.faronics.com/zh-hans/products/deep-freeze302
-^https?:\/\/(www.)?chemdraw\.com\.cn\/https://www.perkinelmer.com.cn/302
-^https?:\/\/(www.)?codesoftchina\.com\/https://www.teklynx.com/302
-^https?:\/\/(www.)?coreldrawchina\.com\/https://www.coreldraw.com/cn/302
-^https?:\/\/(www.)?crossoverchina\.com\/https://www.codeweavers.com/302
-^https?:\/\/(www.)?dongmansoft\.com\/https://www.udongman.cn/302
-^https?:\/\/(www.)?earmasterchina\.cn\/https://www.earmaster.com/302
-^https?:\/\/(www.)?easyrecoverychina\.com\/https://www.ontrack.com/302
-^https?:\/\/(www.)?ediuschina\.com\/https://www.grassvalley.com/302
-^https?:\/\/(www.)?flstudiochina\.com\/https://www.image-line.com/302
-^https?:\/\/(www.)?formysql\.com\/https://www.navicat.com.cn/302
-^https?:\/\/(www.)?guitarpro\.cc\/https://www.guitar-pro.com/302
-^https?:\/\/(www.)?huishenghuiying\.com\.cn\/https://www.coreldraw.com/cn/302
-^https?:\/\/(www.)?iconworkshop\.cn\/https://www.axialis.com/302
-^https?:\/\/(www.)?ign\.xn--fiqs8s\/http://cn.ign.com/ccpref/us302
-^https?:\/\/(www.)?imindmap\.cc\/https://www.ayoa.com/previously-imindmap/302
-^https?:\/\/(www.)?jd\.com\/https://www.jd.com/302
-^https?:\/\/(www.)?jihehuaban\.com\.cn\/https://www.chartwellyorke.com/sketchpad/x24795.html
-^https?:\/\/(www.)?kingdeecn\.cn\/http://www.kingdee.com/302
-^https?:\/\/(www.)?logoshejishi\.comhttps://www.sothink.com/product/logo-design-software/302
-^https?:\/\/(www.)?luping\.net\.cn\/https://www.techsmith.com/302
-^https?:\/\/(www.)?mathtype\.cn\/https://www.dessci.com/302
-^https?:\/\/(www.)?mi\.com\/https://www.mi.com/302
-^https?:\/\/(www.)?mindmanager\.(cc|cn)\/https://www.mindjet.com/cn/302
-^https?:\/\/(www.)?mindmapper\.cc\/https://www.mindmapper.com/302
-^https?:\/\/(www.)?mycleanmymac\.com\/https://macpaw.com/302
-^https?:\/\/(www.)?nicelabel\.cc\/https://www.nicelabel.com/zh/302
-^https?:\/\/(www.)?ntfsformac\.cc\/https://www.tuxera.com/products/tuxera-ntfs-for-mac-cn/302
-^https?:\/\/(www.)?ntfsformac\.cn\/https://china.paragon-software.com/home-mac/ntfs-for-mac/302
-^https?:\/\/(www.)?overturechina\.com\/https://sonicscores.com/302
-^https?:\/\/(www.)?passwordrecovery\.cn\/https://cn.elcomsoft.com/aopr.html302
-^https?:\/\/(www.)?pdfexpert\.cc\/https://pdfexpert.com/zh302
-^https?:\/\/(www.)?photozoomchina\.com\/https://www.benvista.com/302
-^https?:\/\/(www.)?shankejingling\.com\/https://www.sothink.com/product/flashdecompiler/302
-^https?:\/\/(www.)?suning\.com/https://suning.com/302
-^https?:\/\/(www.)?taobao\.com\/https://taobao.com/302
-^https?:\/\/(www.)?vegaschina\.cn\/https://www.vegascreativesoftware.com/302
-^https?:\/\/(www.)?xshellcn\.com\/https://www.netsarang.com/zh/xshell/302
-^https?:\/\/(www.)?yhd\.comhttps://yhd.com/302
-^https?:\/\/(www.)?yuanchengxiezuo\.com\/https://www.teamviewer.com/302
-^https?:\/\/(www.)?zbrushcn.com/https://pixologic.com/302
 ^https?:\/\/.+/V\d\/splash\/getSplashV\d\.action url reject
 ^https?:\/\/.+/img\/ad\.union\.api\/ url reject
 ^https?:\/\/.+\.(amemv|musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/ url reject
@@ -1533,7 +1487,6 @@
 ^https?:\/\/btrace.qq.com url reject
 ^https?:\/\/business-cdn\.shouji\.sogou\.com\/wapdl\/hole\/.+\.jpg url reject
 ^https?:\/\/capi.mwee.cn/app-api/V\d{2}/app/(ad|getstartad) url reject
-^https?:\/\/cn\.ultraiso\.net\/https://cn.ezbsystems.com/ultraiso/302
 ^https?:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+\?maxbr=850 url reject
 ^https?:\/\/dict-mobile\.iciba\.com\/interface\/index\.php\?.+(c=ad|collectFeedsAdShowCount|KSFeedsAdCardViewController) url reject
 ^https?:\/\/dl\.app\.gtja\.com\/dzswem\/kvController\/.+\.jpg$ url reject
@@ -1542,12 +1495,9 @@
 ^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/(interfaceAdMonitor|interfaceAd)\/ url reject
 ^https?:\/\/gg\w+\.cmvideo\.cn\/v\d\/iflyad\/ url reject
 ^https?:\/\/ggic(\d)?\.cmvideo\.cn\/ad\/ url reject
-^https?:\/\/hypersnap\.mairuan\.com\/https://www.hyperionics.com/302
-^https?:\/\/hypersnap\.mairuan\.com\/https://www.keyshot.com/302
 ^https?:\/\/images\.client\.vip\.xunlei\.com\/.+\/advert\/ url reject
 ^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/.+\.(gif|jpg|jpg\.webp)$ url reject
 ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/ url reject
-^https?:\/\/logoshejishi\.mairuan\.com\/https://www.sothink.com/product/logo-design-software/302
 ^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/.+\/appStartAdv url reject
 ^https?:\/\/m\.yap\.yahoo\.com\/v\d{2}\/getAds\.do url reject
 ^https?:\/\/ma\.ofo\.com\/ads\/ url reject
@@ -1571,5 +1521,4 @@
 ^https?:\/\/v\.cctv\.com\/.+850 url reject
 ^https?:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/.+\.mp4\?sid= url reject
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad\/ url reject
-^https?:\/\/you\.163\.com\/https://you.163.com/302
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject
