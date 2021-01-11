@@ -1,9 +1,16 @@
+DOMAIN-KEYWORD,.blogspot.,Proxy
+DOMAIN-KEYWORD,.pinterest.,Proxy
+DOMAIN-KEYWORD,google,Proxy
+HOST,a248.e.akamai.net,Proxy
+HOST,a771.dscq.akamai.net,Proxy
 HOST,abematv.akamaized.net,Proxy
+HOST,api-glb-sea.smoot.apple.com,Proxy
 HOST,api.steampowered.com,Proxy
 HOST,apps.apple.com,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
 HOST,atv-ps.amazon.com,Proxy
 HOST,avodmp4s3ww-a.akamaihd.net,Proxy
+HOST,az416426.vo.msecnd.net,Proxy
 HOST,az668014.vo.msecnd.net,Proxy
 HOST,bcbolt446c5271-a.akamaihd.net,Proxy
 HOST,beta.music.apple.com,Proxy
@@ -11,6 +18,7 @@ HOST,books.itunes.apple.com,Proxy
 HOST,cc.tvbs.com.tw,Proxy
 HOST,cf-images.ap-southeast-1.prod.boltdns.net,Proxy
 HOST,content.jwplatform.com,Proxy
+HOST,d3c33hcgiwev3.cloudfront.net,Proxy
 HOST,ds-linear-abematv.akamaized.net,Proxy
 HOST,ds-vod-abematv.akamaized.net,Proxy
 HOST,edge.api.brightcove.com,Proxy
@@ -40,8 +48,12 @@ HOST,news-edge.apple.com,Proxy
 HOST,news-events.apple.com,Proxy
 HOST,np-edge.itunes.apple.com,Proxy
 HOST,ocsp.apple.com,Proxy
+HOST,ocsp.int-x3.letsencrypt.org,Proxy
+HOST,payments-jp.amazon.com,Proxy
 HOST,play-edge.itunes.apple.com,Proxy
 HOST,players.brightcove.net,Proxy
+HOST,s3-ap-northeast-1.amazonaws.com,Proxy
+HOST,s3-ap-southeast-2.amazonaws.com,Proxy
 HOST,search.avira.com,Proxy
 HOST,store-images.s-microsoft.com,Proxy
 HOST,store.steampowered.com,Proxy
@@ -9653,6 +9665,7 @@ HOST-SUFFIX,freetibet.com,Proxy
 HOST-SUFFIX,freetibet.net,Proxy
 HOST-SUFFIX,freetibet.org,Proxy
 HOST-SUFFIX,freetibetanheroes.org,Proxy
+HOST-SUFFIX,freetls.fastly.net,Proxy
 HOST-SUFFIX,freetribe.me,Proxy
 HOST-SUFFIX,freevideoproxy.com,Proxy
 HOST-SUFFIX,freeviewmovies.com,Proxy
@@ -16668,6 +16681,7 @@ HOST-SUFFIX,onederfultech.com,Proxy
 HOST-SUFFIX,onedinesfree.com,Proxy
 HOST-SUFFIX,onedrive.co,Proxy
 HOST-SUFFIX,onedrive.com,Proxy
+HOST-SUFFIX,onedrive.live.com,Proxy
 HOST-SUFFIX,onedrive.net,Proxy
 HOST-SUFFIX,onedrive.org,Proxy
 HOST-SUFFIX,onedumb.com,Proxy
@@ -18840,6 +18854,7 @@ HOST-SUFFIX,s1347.photobucket.com,Proxy
 HOST-SUFFIX,s1heng.com,Proxy
 HOST-SUFFIX,s1s1s1.com,Proxy
 HOST-SUFFIX,s2stagehance.com,Proxy
+HOST-SUFFIX,s3.amazonaws.com,Proxy
 HOST-SUFFIX,s4.zetaboards.com,Proxy
 HOST-SUFFIX,s4m.xyz,Proxy
 HOST-SUFFIX,s4miniarchive.com,Proxy
@@ -27897,6 +27912,7 @@ IP-CIDR,103.27.148.0/22,Proxy
 IP-CIDR,103.4.96.0/22,Proxy
 IP-CIDR,103.87.204.0/22,Proxy
 IP-CIDR,104.244.40.0/21,Proxy
+IP-CIDR,104.244.42.0/21,Proxy
 IP-CIDR,105.187.240.196/31,Proxy
 IP-CIDR,105.187.243.5/32,Proxy
 IP-CIDR,105.187.243.6/32,Proxy
@@ -28004,6 +28020,8 @@ IP-CIDR,173.219.75.19/32,Proxy
 IP-CIDR,173.235.1.133/32,Proxy
 IP-CIDR,173.244.134.58/32,Proxy
 IP-CIDR,173.252.64.0/18,Proxy
+IP-CIDR,173.252.64.0/19,Proxy
+IP-CIDR,173.252.96.0/19,Proxy
 IP-CIDR,174.37.0.0/16,Proxy
 IP-CIDR,179.60.192.0/22,Proxy
 IP-CIDR,18.184.0.0/15,Proxy
@@ -28816,10 +28834,14 @@ IP-CIDR,90.255.254.6/32,Proxy
 IP-CIDR,90.255.254.66/32,Proxy
 IP-CIDR,90.255.254.70/32,Proxy
 IP-CIDR,91.108.0.0/16,Proxy
+IP-CIDR,91.108.12.0/22,Proxy
 IP-CIDR,91.108.16.0/21,Proxy
+IP-CIDR,91.108.16.0/22,Proxy
+IP-CIDR,91.108.20.0/22,Proxy
 IP-CIDR,91.108.4.0/22,Proxy
 IP-CIDR,91.108.56.0/22,Proxy
 IP-CIDR,91.108.8.0/21,Proxy
+IP-CIDR,91.108.8.0/22,Proxy
 IP-CIDR,91.198.174.0/24,Proxy
 IP-CIDR,94.245.201.194/32,Proxy
 IP-CIDR,94.245.201.202/31,Proxy
