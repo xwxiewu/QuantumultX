@@ -23,7 +23,9 @@ HOST,log.mmstat.com,DIRECT
 HOST,msg.umeng.com,DIRECT
 HOST,msg.umengcloud.com,DIRECT
 HOST,mtalk.google.com,DIRECT
+HOST,origin-a.akamaihd.net,DIRECT
 HOST,p2p.huya.com,DIRECT
+HOST,pubads.g.doubleclick.net,DIRECT
 HOST,router.asus.com,DIRECT
 HOST,sycm.mmstat.com,DIRECT
 HOST,tracking.miui.com,DIRECT
@@ -37,6 +39,7 @@ HOST-KEYWORD,xlliveud,DIRECT
 HOST-KEYWORD,xunlei,DIRECT
 HOST-KEYWORD,yunpan,DIRECT
 HOST-SUFFIX,blog.google,DIRECT
+HOST-SUFFIX,dizhensubao.getui.com,DIRECT
 HOST-SUFFIX,f.video.weibocdn.com,DIRECT
 HOST-SUFFIX,fus.cdn.krcom.cn,DIRECT
 HOST-SUFFIX,googletraveladservices.com,DIRECT
