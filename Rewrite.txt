@@ -66,6 +66,8 @@
 ^http:\/\/www\.google\.cn url 302 https://www.google.com
 ^http?:\/\/123\.59\.30\.10\/adv\/advInfos url reject-img
 ^http?:\/\/www\.tsytv\.com\.cn\/api\/app\/ios\/ads url reject-img
+^https://api.bilibili.com/x/v2/dm/ad url reject-200 
+^https://app.bilibili.com/x/v2/(splash|search/(defaultword|square)) url reject-200 
 ^https:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+adunitid url reject
 ^https?+:\/\/(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/.+?\.tc\.qq\.com\/.+?p201\.1\.mp4\? url reject-200
 ^https?+:\/\/(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/EcomResourceServer\/AdPlayPage\/adinfo url reject-200
@@ -369,6 +371,10 @@
 ^https?://(www.)?g.cn url 302 https://www.google.com
 ^https?://(www.)?google.cn url 302 https://www.google.com
 ^https?://(www.)?google.cn/search url 302 https://www.google.com/search
+^https?://api\.bilibili\.com/x/v\d/dm/ad url reject-200
+^https?://api\.vc\.bilibili\.com/topic_svr/v\d/topic_svr url reject-200
+^https?://app\.bilibili\.com/x/resource/top/activity\?access_key url reject-200
+^https?://app\.bilibili\.com/x/v\d/(search/(defaultword|square)) url reject-200
 ^https?://cfg.m.ttkvod.com/mobile/ttk_mobile_1.8.txt url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Static/TXT/ttk_mobile_1.8.txt$2ogtre5vp0.bkt.clouddn.com$3
 ^https?://cnzz.com/ url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/background.png?$2ogtre5vp0.bkt.clouddn.com$3
 ^https?://graph.facebook.com/.+activities url reject-img
@@ -762,6 +768,9 @@
 ^https?:\/\/api\.applovefrom\.com\/api\/v\d\/splash\/ url reject
 ^https?:\/\/api\.appsdk\.soku\.com\/bg\/r url reject-img
 ^https?:\/\/api\.appsdk\.soku\.com\/tag\/r url reject-img
+^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\? - reject-dict
+^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\? url reject-200
+^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\? url reject-dict
 ^https?:\/\/api\.bjxkhc\.com\/index\.php\/app\/ios\/ads\/ url reject
 ^https?:\/\/api\.caijingmobile\.com\/(ad|advert)\/ url reject
 ^https?:\/\/api\.caijingmobile\.com\/(ad|advert)\/ url reject-200
@@ -831,6 +840,13 @@
 ^https?:\/\/api\.smzdm\.com\/v\d\/util\/(banner|loading) url reject
 ^https?:\/\/api\.smzdm\.com\/v\d\/util\/loading url reject
 ^https?:\/\/api\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap url reject
+^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/mix_uplist - reject-dict
+^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/mix_uplist url reject-200
+^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/mix_uplist url reject-dict
+^https?:\/\/api\.vc\.bilibili\.com\/search_svr\/v\d\/Search\/recommend_words - reject-dict
+^https?:\/\/api\.vc\.bilibili\.com\/search_svr\/v\d\/Search\/recommend_words url reject-200
+^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr - reject-dict
+^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr url reject-dict
 ^https?:\/\/api\.videozhishi\.com\/api\/getAdvertising url reject
 ^https?:\/\/api\.vistopia\.com\.cn\/api\/v1\/home\/advertisement url reject
 ^https?:\/\/api\.vistopia\.com\.cn\/api\/v\d\/home\/advertisement url reject
@@ -1271,7 +1287,13 @@
 ^https?:\/\/mage\.if\.qidian\.com\/Atom\.axd\/Api\/Client\/GetConfIOS url reject-img
 ^https?:\/\/mage\.if\.qidian\.com\/argus\/api\/v\d\/client\/getsplashscreen url reject
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ url reject
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash - reject-dict
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash url reject
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash url reject-200
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash url reject-dict
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/ListFlash - reject-dict
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/ListFlash url reject-200
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/ListFlash url reject-dict
 ^https?:\/\/mangaapi\.manhuaren\.com\/v1\/public\/getStartPageAds url reject-img
 ^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds url reject
 ^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init url reject
