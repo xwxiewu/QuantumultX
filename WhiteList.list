@@ -27,7 +27,6 @@ HOST,origin-a.akamaihd.net,DIRECT
 HOST,pubads.g.doubleclick.net,DIRECT
 HOST,router.asus.com,DIRECT
 HOST,sycm.mmstat.com,DIRECT
-HOST,testflight.apple.com,PROXY
 HOST,tracking.miui.com,DIRECT
 HOST,translate.googleapis.com,DIRECT
 HOST,update.googleapis.com,DIRECT
