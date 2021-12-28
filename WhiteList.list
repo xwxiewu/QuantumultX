@@ -24,6 +24,7 @@ HOST,msg.umeng.com,DIRECT
 HOST,msg.umengcloud.com,DIRECT
 HOST,mtalk.google.com,DIRECT
 HOST,origin-a.akamaihd.net,DIRECT
+HOST,picanalysis.vivo.com.cn,DIRECT
 HOST,pubads.g.doubleclick.net,DIRECT
 HOST,router.asus.com,DIRECT
 HOST,sycm.mmstat.com,DIRECT
@@ -31,22 +32,28 @@ HOST,tracking.miui.com,DIRECT
 HOST,translate.googleapis.com,DIRECT
 HOST,update.googleapis.com,DIRECT
 HOST,vd.l.qq.com,DIRECT
+HOST,xivanalysis.com,DIRECT
 HOST-KEYWORD,aria2,DIRECT
+HOST-KEYWORD,speedtest,DIRECT
 HOST-KEYWORD,thunder,DIRECT
 HOST-KEYWORD,wb_ad,DIRECT
 HOST-KEYWORD,xlliveud,DIRECT
 HOST-KEYWORD,xunlei,DIRECT
 HOST-KEYWORD,yunpan,DIRECT
+HOST-SUFFIX,blog.google // Google Blog,DIRECT
 HOST-SUFFIX,blog.google,DIRECT
 HOST-SUFFIX,dizhensubao.getui.com,DIRECT
 HOST-SUFFIX,f.video.weibocdn.com,DIRECT
 HOST-SUFFIX,fus.cdn.krcom.cn,DIRECT
+HOST-SUFFIX,googletraveladservices.com // Google Flights,DIRECT
 HOST-SUFFIX,googletraveladservices.com,DIRECT
 HOST-SUFFIX,hiwifi.com,DIRECT
+HOST-SUFFIX,ip6-localHOST,DIRECT
 HOST-SUFFIX,ip6-localhost,DIRECT
 HOST-SUFFIX,ip6-loopback,DIRECT
 HOST-SUFFIX,leike.cc,DIRECT
 HOST-SUFFIX,local,DIRECT
+HOST-SUFFIX,localHOST,DIRECT
 HOST-SUFFIX,localhost,DIRECT
 HOST-SUFFIX,miwifi.com,DIRECT
 HOST-SUFFIX,my.router,DIRECT
