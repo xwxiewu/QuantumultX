@@ -48,7 +48,7 @@
 ^(http|https):\/\/(www.)?yhd\.com\/ url 302 https://yhd.com/
 ^(http|https):\/\/(www.)?yuanchengxiezuo\.com\/ url 302 https://www.teamviewer.com/
 ^(http|https):\/\/(www.)?zbrushcn.com/ url 302 https://pixologic.com/
-^(http|https):\/\/api\.abema\.io\/v\d\/ip\/check url reject-200
+^(http|https):\/\/api\.abema\.io\/v\d\/ip\/check url reject-200 
 ^(http|https):\/\/cn\.ultraiso\.net\/ url 302 https://cn.ezbsystems.com/ultraiso/
 ^(http|https):\/\/hypersnap\.mairuan\.com\/ url 302 https://www.hyperionics.com/
 ^(http|https):\/\/hysnap\.mauan\.com\/ url 302 $11111$3
