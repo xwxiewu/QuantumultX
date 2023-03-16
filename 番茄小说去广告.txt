@@ -1,0 +1,33 @@
+HOST,p6-ad-sign.byteimg.com
+HOST,p9-ad-sign.byteimg.com
+HOST,i.snssdk.com
+HOST,i-lq.snssdk.com
+HOST,dig.bdurl.net
+HOST,activity-ag.awemeughun.com
+HOST,mcs.snssdk.com
+HOST,tnc3-alisc1.snssdk.com
+HOST,security-lq.snssdk.com
+HOST,tnc3-aliec2.snssdk.com
+HOST,is.snssdk.com
+HOST,msync-im1-vip6-std.easemob.com
+HOST,apd-pcdnwxlogin.teg.tencent-cloud.net
+HOST,api.iegadp.qq.com
+HOST,sf3-ttcdn-tos.pstatp.com
+HOST-SUFFIX,pglstatp-toutiao.com
+HOST,*default.ixigua.com
+HOST,v6-novelapp.ixigua.com
+HOST,*novelapp.ixigua.com
+HOST-SUFFIX,byteorge.com
+HOST-SUFFIX,bytegoofy.com
+HOST-SUFFIX,bytedance.com
+IP-CIDR, 49.71.37.101/32
+IP-CIDR, 117.71.105.23/32
+IP-CIDR, 218.94.207.205/32
+IP-CIDR, 117.92.229.188/32
+IP-CIDR, 101.36.166.16/32
+IP-CIDR, 180.96.2.114/32
+HOST-SUFFIX,zijieapi.com
+HOST-SUFFIX,pangolin-sdk-toutiao.com
+HOST,toutiao-frontier.snssdk.com
+HOST,adim.pinduoduo.com
+HOST,whoami.akamai.net
